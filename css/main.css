@@ -2442,6 +2442,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url('../img/customer-bg.jpg');
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
 
 .banner-area .fullscreen {

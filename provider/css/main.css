@@ -2442,6 +2442,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url('../img/provider-bg.jpg');
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
 
 .banner-area .fullscreen {
@@ -4844,9 +4845,21 @@ dl.accordion.time-line:before {
   font-weight: 500;
  }
 
+ @media (max-width: 673px){
+   .quote-area h4 {
+    color: #F16B6A;
+    font-family: Roboto;
+    font-size: 19px;
+    line-height: 39px !important;
+    text-align: center;
+    font-weight: 500;
+   }
+ }
+
  .services-area {
   background: url('../img/alice-support.jpg');
   background-size: cover;
+  background-position: center;
  }
 
  .section-gap-250 {
