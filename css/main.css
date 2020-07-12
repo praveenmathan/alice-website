@@ -88,6 +88,12 @@ body {
   position: relative;
 }
 
+@media (min-width: 1200px) {
+  .container{
+      max-width: 970px;
+  }
+}
+
 ol, ul {
   margin: 0;
   padding: 0;
@@ -4777,7 +4783,7 @@ dl.accordion.time-line:before {
  }
 
  .download-content img {
-   width: 60%;
+   width: 50%;
    margin-right: 5%;
  }
 
