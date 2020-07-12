@@ -4538,8 +4538,8 @@ dl.accordion.time-line:before {
   transition: all 0.3s ease 0s;
   color: #FFFFFF;
   font-family: Roboto;
-  font-size: 18px;
-  line-height: 35px;
+  font-size: 15px;
+  line-height: 25px;
   text-align: left;
   font-weight: 400;
 }
