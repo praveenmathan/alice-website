@@ -2043,6 +2043,13 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   background: #fff;
 }
+
+.main-menu {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: #F47D20;
+}
+
 }
 #header.header-scrolled {
   transition: all 0.5s;
@@ -2215,7 +2222,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 998;
   background: rgba(0, 0, 0, 0.8);
   left: -260px;
-  width: 260px;
+  width: 200px;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -2426,23 +2433,44 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: #f9f9ff;
+  background: url('../img/customer-bg.jpg');
+  width: 100%;
+  background-size: cover;
 }
 
 .banner-area .fullscreen {
-  height: 750px !important;
+  height: 725px !important;
 }
 
-.banner-left h6 {
-  text-transform: uppercase;
+.banner-left p {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 28.13px;
+  text-align: center;
   font-weight: 400;
-  letter-spacing: 2px;
+  margin-bottom: 5%;
 }
 
-.banner-left h1 {
-  margin: 20px 0;
-  font-size: 60px;
-  text-transform: uppercase;
+.banner-left h2 {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 35px;
+  text-align: left;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 673px) {
+  .banner-left img {
+    width: 30%;
+    margin-right: 5%;
+  }
+}
+.banner-left img {
+  width: 20%;
+  margin-right: 5%;
 }
 
 @media (max-width: 991px) {
@@ -2463,6 +2491,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-right {
   text-align: center;
+}
+
+.banner-right img {
+  width: 75%;
 }
 
 @media (max-width: 991px) {
@@ -4579,7 +4611,7 @@ dl.accordion.time-line:before {
 .alice-heading::after {
   display: block;
   content: '';
-  width: 200%;
+  width: 350px;
   height: 3px;
   background: #F47D20;
   position: absolute;
@@ -4590,8 +4622,9 @@ dl.accordion.time-line:before {
  .title h1 {
   color: #4D4D4D;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 36px;
   margin: 0 0 40px 0;
+  font-weight: 500;
  }
  .how-it-works-content {
    display: flex;
@@ -4618,6 +4651,46 @@ dl.accordion.time-line:before {
   margin-top: 1%;
   margin-bottom: 1%;
  }
+
+ @media (max-width: 1120px) {
+  .work-link {
+    width: 0.5%;
+    height: 30px;
+    background: #F47D20;
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+   }
+ }
+
+ @media (max-width: 673px) {
+  .how-it-works-content h3 {
+    color: #4D4D4D;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+    font-weight: 500;
+    margin: auto 0;
+   }
+
+  .work-link {
+    width: 0.5%;
+    height: 30px;
+    background: #F47D20;
+    margin-left: 12.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+   }
+
+   .download-content {
+     text-align: center;
+   }
+
+   .section-gap {
+     padding: 60px 0;
+   }
+}
  .download-area {
    background: #1D1D1D;
  }
@@ -4647,6 +4720,35 @@ dl.accordion.time-line:before {
   z-index: 1;
   background-color: rgba(244, 125, 32, .15);
  }
+ @media (max-width: 673px) {
+  .faq-content h3 {
+    color: #F47D20;
+    font-family: Roboto;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+    padding: 3% 3%;
+   }
+
+  .faq-content h3::before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18%;
+    border-radius: 100%;
+    z-index: 1;
+    background-color: rgba(244, 125, 32, .15);
+   }
+
+   .mt-35p {
+    margin-top: 3%;
+    }
+ }
  .faq-content p {
   color: #4D4D4D;
   font-family: Roboto;
@@ -4659,7 +4761,7 @@ dl.accordion.time-line:before {
  .download-content-area h3 {
   color: #fff;
   font-family: Roboto;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 42.19px;
   text-align: left;
   font-weight: 500;
@@ -4675,11 +4777,17 @@ dl.accordion.time-line:before {
  }
 
  .download-content img {
-   width: 50%;
+   width: 60%;
+   margin-right: 5%;
+ }
+
+ .download-imgs img {
+  width: 45%;
+  margin-right: 5%;
  }
 
  .download-content-area {
-   padding: 25%;
+   padding: 20%;
  }
 
  .provider-button {
