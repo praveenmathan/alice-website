@@ -2474,6 +2474,26 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 30%;
     margin-right: 5%;
   }
+
+  .banner-left p {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 28.13px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5%;
+  }
+  
+  .banner-left h2 {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5%;
+  }
 }
 .banner-left img {
   width: 20%;
@@ -2524,6 +2544,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767px) {
   .home-about-right {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 673px) {
+  .home-about-right h6, .home-about-left h6 {
+    color: #4D4D4D;
+      font-family: Roboto;
+      font-size: 30px;
+      line-height: 42.19px;
+      text-align: left;
+      font-weight: 500;
   }
 }
 
@@ -4580,7 +4611,11 @@ dl.accordion.time-line:before {
 .divider {
   padding: 75px 0;
 }
-
+@media (max-width: 673px) {
+.divider {
+  padding: 25px 0;
+}
+}
 .oval {
   width: 100%;
   height: 100%;
@@ -4697,6 +4732,27 @@ dl.accordion.time-line:before {
    .section-gap {
      padding: 60px 0;
    }
+   .alice-heading {
+    color: #F47D20;
+    font-family: Roboto;
+    font-size: 35px;
+    line-height: 56.25px;
+    text-align: left;
+    font-weight: 500;
+    position: relative; 
+    margin: 10px 0 40px 0; 
+  }
+  .alice-heading::after {
+    display: block;
+    content: '';
+    width: 250px;
+    height: 3px;
+    background: #F47D20;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 125%;
+   }
 }
  .download-area {
    background: #1D1D1D;
@@ -4717,12 +4773,12 @@ dl.accordion.time-line:before {
  .faq-content h3::before {
   content: "";
   display: block;
-  height: 100%;
+  height: 100px;
   position: absolute;
   top: 0;
   left: 0;
   /* margin-right: -35%; */
-  width: 10%;
+  width: 100px;
   border-radius: 100%;
   z-index: 1;
   background-color: rgba(244, 125, 32, .15);
@@ -4736,17 +4792,17 @@ dl.accordion.time-line:before {
     text-align: left;
     font-weight: 500;
     position: relative;
-    padding: 3% 3%;
+    padding: 7% 3%;
    }
 
   .faq-content h3::before {
     content: "";
     display: block;
-    height: 100%;
+    height: 75px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 18%;
+    width: 75px;
     border-radius: 100%;
     z-index: 1;
     background-color: rgba(244, 125, 32, .15);
@@ -4783,9 +4839,13 @@ dl.accordion.time-line:before {
   margin: 10% 0;
  }
 
- .download-content img {
+ .download-image img {
    width: 50%;
    margin-right: 5%;
+ }
+
+ .download-image {
+  text-align: center;
  }
 
  .download-imgs img {
@@ -4795,6 +4855,26 @@ dl.accordion.time-line:before {
 
  .download-content-area {
    padding: 20%;
+ }
+
+ @media (max-width: 673px) {
+  .download-content-area {
+    padding: 5%;
+  }
+
+  .download-content-area h3 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 35px;
+    line-height: 42.19px;
+    text-align: left;
+    font-weight: 500;
+   }
+
+   .download-image img {
+    width: 75%;
+    margin-right: 5%;
+  }
  }
 
  .provider-button {
