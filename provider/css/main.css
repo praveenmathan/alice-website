@@ -4872,6 +4872,10 @@ dl.accordion.time-line:before {
     text-align: center;
     font-weight: 500;
    }
+
+   .download-content-area {
+    padding: 5%;
+  }
  }
 
  .services-area {
