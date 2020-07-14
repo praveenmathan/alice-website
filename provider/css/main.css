@@ -4823,9 +4823,16 @@ dl.accordion.time-line:before {
  }
 
  .download-imgs img {
-  width: 45%;
+  width: 80%;
   margin-right: 5%;
  }
+
+ @media (max-width: 400px){
+  .download-imgs img {
+    width: 50%;
+    margin-right: 5%;
+   }
+}
 
  .download-content-area {
    padding: 20%;
@@ -4841,6 +4848,33 @@ dl.accordion.time-line:before {
   padding: 2% 10%!important;
  }
 
+ @media (max-width: 400px){
+  .provider-button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #F16B6A !important;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80% !important;
+    padding: 2% 10%!important;
+    margin: 10px;
+   } 
+}
+
+@media (max-width: 673px){
+  .provider-button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #F16B6A !important;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80% !important;
+    padding: 2% 10%!important;
+    margin: 10px;
+   } 
+}
  .sign-up-today {
   background-color: #F16B6A;
   border-radius: 10px;
