@@ -4929,6 +4929,13 @@ dl.accordion.time-line:before {
     margin-right: 5%;
    }
 }
+
+@media (max-width: 673px){
+  .download-imgs img {
+    width: 50%;
+    margin-right: 5%;
+   }
+}
  .download-content-area {
    padding: 20%;
  }
