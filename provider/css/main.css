@@ -4822,28 +4822,28 @@ dl.accordion.time-line:before {
    margin-right: 5%;
  }
 
- .download-imgs img {
+ .download-app-links a {
   width: 80%;
   margin-right: 5%;
  }
 
  @media (max-width: 400px){
-  .download-imgs img {
+  .download-app-links a {
     width: 50%;
     margin-right: 5%;
    }
 }
 
 @media (max-width: 673px){
-  .download-imgs img {
+  .download-app-links a {
     width: 50%;
     margin-right: 5%;
    }
 }
 
- .download-content-area {
-   padding: 20%;
- }
+.download-content-area {
+  padding: 20% 20% 0% 20%;
+}
 
  .provider-button {
   background-color: #FFFFFF;

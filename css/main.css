@@ -2470,8 +2470,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 673px) {
-  .banner-left img {
-    width: 30%;
+  .banner-left a {
+    width: 100%;
     margin-right: 5%;
   }
 
@@ -2495,7 +2495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 5%;
   }
 }
-.banner-left img {
+.banner-left a {
   width: 30%;
   margin-right: 5%;
 }
@@ -4918,26 +4918,26 @@ dl.accordion.time-line:before {
   text-align: center;
  }
 
- .download-imgs img {
+ .download-content a{
   width: 80%;
   margin-right: 5%;
  }
 
  @media (max-width: 400px){
-  .download-imgs img {
+  .download-content a{
     width: 50%;
     margin-right: 5%;
    }
 }
 
 @media (max-width: 673px){
-  .download-imgs img {
+  .download-content a{
     width: 50%;
     margin-right: 5%;
    }
 }
  .download-content-area {
-   padding: 20%;
+   padding: 20% 20% 0% 20%;
  }
 
  @media (max-width: 673px) {
